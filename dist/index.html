@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.min.js"></script>
+	<script>
+		var SWF = 'main.swf',
+			SWF_ID = 'videoContainer',
+			WIDTH = '640',
+			HEIGHT = '360',
+			PARAMS = {
+				'wmode':'opaque'
+			},
+			ATTRIBUTES = {
+				id:'video',
+				name:'video'
+			};
+		swfobject.embedSWF(SWF, SWF_ID, WIDTH, HEIGHT, "10.1.0","",{},PARAMS, ATTRIBUTES);
+	</script>
+	<title>Actionscript Test Page</title>
+</head>
+<body>
+	<div id="videoContainer"></div>
+</body>
+</html>
