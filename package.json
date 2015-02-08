@@ -9,7 +9,7 @@
   "repository":{
     "type":"git",
     "url":"git://github.com/jdreetz/simpleas3project.git"
-  }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
