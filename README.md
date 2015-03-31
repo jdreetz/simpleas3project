@@ -2,6 +2,9 @@
 
 A simple Actionscript 3 project using Grunt to compile, serve and debug the Flash movie.
 
+###Motivation:
+Frequently I need to try out some new AS3 code in an isolated, simplified environment. This project facilitates that workflow by providing a very basic AS3 project that can be edited and debugged with a terminal, text editor, and browser.   
+
 ###Requirements:
 * Node JS
 * Flex SDK - [Adobe Download], [NPM Flex-SDK]
